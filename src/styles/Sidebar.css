@@ -49,6 +49,15 @@
   margin: 0;
 }
 
+.githubIcon {
+  height: 2rem;
+  transition: scale 200ms;
+}
+
+.githubIcon:hover {
+  scale: 1.2;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
 @media screen and (max-width: 768px) {
@@ -89,6 +98,10 @@
 
   .score p {
     font-size: 1.2rem;
+  }
+
+  .github {
+    display: none;
   }
 }
 

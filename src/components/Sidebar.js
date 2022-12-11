@@ -1,4 +1,5 @@
 import logo from "../images/logo.png";
+import github from "../images/github.svg";
 import "../styles/Sidebar.css";
 
 const Sidebar = (props) => {
@@ -19,6 +20,16 @@ const Sidebar = (props) => {
           <h3>ベスト</h3>
           <p>{props.best}</p>
         </div>
+      </div>
+
+      <div className="github">
+        <a
+          href="https://github.com/joycehwchan/memory-game"
+          className="github"
+          target="_blank"
+        >
+          <img src={github} alt="source" class="githubIcon" />
+        </a>
       </div>
     </header>
   );
