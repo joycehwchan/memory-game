@@ -4,7 +4,8 @@
   --blue: #1b50b5;
   --red: #db2e20;
   --yellow: #d6af53;
-  --text: #1a2832;
+  --text: #172128;
+  --light-gray: #f8f9fa;
 }
 
 body {
@@ -17,16 +18,51 @@ body {
 
 #root {
   height: 100%;
+  width: 100%;
 }
 
 .app {
   height: 100%;
   display: flex;
+  background-color: var(--light-gray);
+}
+
+main {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 8rem);
+}
+
+.cardGrid {
+  height: fit-content;
+  width: 90%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
+@media screen and (max-width: 1280px) {
+  main {
+    align-items: flex-start;
+  }
+
+  .cardGrid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+  }
+}
+
 @media screen and (max-width: 992px) {
+  .cardGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /* For medium devices */
@@ -34,9 +70,28 @@ body {
   .app {
     flex-direction: column;
   }
+
+  main {
+    width: 100%;
+  }
+
+  .cardGrid {
+    height: calc(100vh - 80px);
+    scale: 1;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .cardGrid {
+    grid-template-columns: repeat(3, 1fr);
+    scale: 1;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* For small devices */

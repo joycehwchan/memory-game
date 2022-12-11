@@ -1,0 +1,55 @@
+.card {
+  border-radius: 2rem;
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  transition: scale 200ms;
+  background-color: white;
+  cursor: pointer;
+}
+
+.cardImg {
+  /* height: 30vh; */
+  height: 14rem;
+}
+
+.cardName {
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.card:hover {
+  scale: 1.02;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: var(--red);
+}
+
+.card:hover .cardImg {
+  scale: 1.4;
+}
+
+.card:hover .cardName {
+  display: none;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1064px) {
+  .cardImg {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cardName {
+    font-size: 0.8rem;
+  }
+
+  .cardImg {
+    height: 16rem;
+  }
+}
