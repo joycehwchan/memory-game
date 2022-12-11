@@ -2,7 +2,7 @@ import "../styles/Card.css";
 
 export const Card = (props) => {
   return (
-    <div className="card">
+    <div className="card" onClick={() => props.handleClick(props.character)}>
       <img
         src={props.character.img}
         alt={props.character.name}

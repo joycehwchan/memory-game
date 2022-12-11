@@ -13,8 +13,9 @@
 }
 
 .cardImg {
-  /* height: 30vh; */
-  height: 14rem;
+  /* height: 14rem; */
+  height: 30vh;
+  min-height: 12rem;
 }
 
 .cardName {
@@ -25,7 +26,7 @@
 .card:hover {
   scale: 1.02;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: var(--red);
+  border-radius: 4rem;
 }
 
 .card:hover .cardImg {
@@ -40,7 +41,8 @@
 /* For large devices */
 @media screen and (max-width: 1064px) {
   .cardImg {
-    height: 12rem;
+    /* height: 12rem; */
+    height: 24vh;
   }
 }
 
@@ -50,6 +52,7 @@
   }
 
   .cardImg {
-    height: 16rem;
+    /* height: 16rem; */
+    height: 32vh;
   }
 }

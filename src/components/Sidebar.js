@@ -1,9 +1,9 @@
 import logo from "../images/logo.png";
 import "../styles/Sidebar.css";
 
-const Sidebar = () => {
+const Sidebar = (props) => {
   return (
-    <header class="sidebar">
+    <header className="sidebar">
       <div className="title">
         <img src={logo} alt="" className="sidebarLogo" />
         <h1>記憶ゲーム</h1>
@@ -12,12 +12,12 @@ const Sidebar = () => {
       <div className="scores">
         <div className="score">
           <h3>スコア</h3>
-          <p>10</p>
+          <p>{props.score}</p>
         </div>
 
         <div className="score">
           <h3>ベスト</h3>
-          <p>16</p>
+          <p>{props.best}</p>
         </div>
       </div>
     </header>
