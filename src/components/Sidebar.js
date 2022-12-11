@@ -27,6 +27,7 @@ const Sidebar = (props) => {
           href="https://github.com/joycehwchan/memory-game"
           className="github"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={github} alt="source" class="githubIcon" />
         </a>
