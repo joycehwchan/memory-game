@@ -37,11 +37,6 @@ const App = () => {
     }
   }, [score]);
 
-  // Save best score in localStorage whenever 'best' updates
-  useEffect(() => {
-    localStorage.setItem("Best", best);
-  }, [best]);
-
   // Get best score from localStorage on component mount
   useEffect(() => {
     const storedBest = parseFloat(localStorage.getItem("Best"));
@@ -49,6 +44,11 @@ const App = () => {
       setBest(storedBest);
     }
   }, []);
+
+  // Save best score in localStorage whenever 'best' updates
+  useEffect(() => {
+    localStorage.setItem("Best", best);
+  }, [best]);
 
   return (
     <div className="app">
