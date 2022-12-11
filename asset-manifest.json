@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.03c72979.css",
-    "main.js": "/memory-game/static/js/main.4b60104d.js",
+    "main.css": "/memory-game/static/css/main.b0ffc19c.css",
+    "main.js": "/memory-game/static/js/main.40444e4c.js",
     "static/media/img_gin.png": "/memory-game/static/media/img_gin.792f00008682ff7f2887.png",
     "static/media/img_genta.png": "/memory-game/static/media/img_genta.76c406d1a7fae8e0c6e7.png",
     "static/media/img_kid.png": "/memory-game/static/media/img_kid.4ca707bd85f45c2d9802.png",
@@ -25,15 +25,16 @@
     "static/media/img_sera.png": "/memory-game/static/media/img_sera.ff97068a7d00a9d879b6.png",
     "static/media/img_amuro.png": "/memory-game/static/media/img_amuro.f9c8087b07658219c98b.png",
     "static/media/img_suzuki.png": "/memory-game/static/media/img_suzuki.2766c73b10cb1c2b500f.png",
+    "static/media/modal.png": "/memory-game/static/media/modal.1e2a12f56ea257be6f7f.png",
     "static/media/img_akai.png": "/memory-game/static/media/img_akai.34268bab3ded86232fff.png",
     "static/media/logo.png": "/memory-game/static/media/logo.aa96e4b7eb441c575ef7.png",
     "static/media/github.svg": "/memory-game/static/media/github.fae829a3c4c3d9a13b649f6f18c7f0e5.svg",
     "index.html": "/memory-game/index.html",
-    "main.03c72979.css.map": "/memory-game/static/css/main.03c72979.css.map",
-    "main.4b60104d.js.map": "/memory-game/static/js/main.4b60104d.js.map"
+    "main.b0ffc19c.css.map": "/memory-game/static/css/main.b0ffc19c.css.map",
+    "main.40444e4c.js.map": "/memory-game/static/js/main.40444e4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.03c72979.css",
-    "static/js/main.4b60104d.js"
+    "static/css/main.b0ffc19c.css",
+    "static/js/main.40444e4c.js"
   ]
 }
