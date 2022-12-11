@@ -5,6 +5,7 @@ import randomCharacters from "./helpers/characters.js";
 // Components
 import Sidebar from "./components/Sidebar";
 import { Card } from "./components/Card";
+import { Instruction } from "./components/Instruction";
 
 const App = () => {
   const [score, setScore] = useState(0);
@@ -63,6 +64,7 @@ const App = () => {
           ))}
         </div>
       </main>
+      <Instruction />
     </div>
   );
 };

@@ -39,6 +39,11 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
+@media screen and (max-width: 1280px) {
+  .cardImg {
+    height: 10vh;
+  }
+}
 @media screen and (max-width: 1064px) {
   .cardImg {
     /* height: 12rem; */
