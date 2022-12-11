@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.03c72979.css",
+    "main.js": "/memory-game/static/js/main.2df430c4.js",
+    "static/media/img_gin.png": "/memory-game/static/media/img_gin.792f00008682ff7f2887.png",
+    "static/media/img_genta.png": "/memory-game/static/media/img_genta.76c406d1a7fae8e0c6e7.png",
+    "static/media/img_kid.png": "/memory-game/static/media/img_kid.4ca707bd85f45c2d9802.png",
+    "static/media/img_t_kazuha.png": "/memory-game/static/media/img_t_kazuha.7a4794318721b77b055c.png",
+    "static/media/img_agasa.png": "/memory-game/static/media/img_agasa.7be5621243b851916224.png",
+    "static/media/img_conan.png": "/memory-game/static/media/img_conan.90d4b72d981117d6f12a.png",
+    "static/media/img_megure.png": "/memory-game/static/media/img_megure.d0991408bc6d05b6a0d2.png",
+    "static/media/img_haneda.png": "/memory-game/static/media/img_haneda.76be7b169ad18c0ba2aa.png",
+    "static/media/img_ayumi.png": "/memory-game/static/media/img_ayumi.75f16304fa5178bea176.png",
+    "static/media/img_vermouth.png": "/memory-game/static/media/img_vermouth.283004886d772c402b32.png",
+    "static/media/img_haibara.png": "/memory-game/static/media/img_haibara.aa5141707defcd1b0681.png",
+    "static/media/img_vodka.png": "/memory-game/static/media/img_vodka.b00c43ea93a154d929f4.png",
+    "static/media/img_mitsuhiko.png": "/memory-game/static/media/img_mitsuhiko.f7be12c7714a86b025d4.png",
+    "static/media/img_sato.png": "/memory-game/static/media/img_sato.22696210b0ed2974522d.png",
+    "static/media/img_shinichi.png": "/memory-game/static/media/img_shinichi.85b103eea45ee1c1769a.png",
+    "static/media/img_kogoro.png": "/memory-game/static/media/img_kogoro.6c2f95e784dcf4da7b2e.png",
+    "static/media/img_h_heiji.png": "/memory-game/static/media/img_h_heiji.d566b559f797cfaddd34.png",
+    "static/media/img_takagi.png": "/memory-game/static/media/img_takagi.6b1295bfda2312644f9a.png",
+    "static/media/img_ran.png": "/memory-game/static/media/img_ran.c63824a86e8a0e3c26a5.png",
+    "static/media/img_okiya.png": "/memory-game/static/media/img_okiya.b02f2aafdc0caa5b16c9.png",
+    "static/media/img_sera.png": "/memory-game/static/media/img_sera.ff97068a7d00a9d879b6.png",
+    "static/media/img_amuro.png": "/memory-game/static/media/img_amuro.f9c8087b07658219c98b.png",
+    "static/media/img_suzuki.png": "/memory-game/static/media/img_suzuki.2766c73b10cb1c2b500f.png",
+    "static/media/img_akai.png": "/memory-game/static/media/img_akai.34268bab3ded86232fff.png",
+    "static/media/logo.png": "/memory-game/static/media/logo.aa96e4b7eb441c575ef7.png",
+    "static/media/github.svg": "/memory-game/static/media/github.fae829a3c4c3d9a13b649f6f18c7f0e5.svg",
+    "index.html": "/memory-game/index.html",
+    "main.03c72979.css.map": "/memory-game/static/css/main.03c72979.css.map",
+    "main.2df430c4.js.map": "/memory-game/static/js/main.2df430c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03c72979.css",
+    "static/js/main.2df430c4.js"
+  ]
+}
