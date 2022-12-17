@@ -23,18 +23,20 @@
   white-space: nowrap;
 }
 
-.card:hover {
-  scale: 1.02;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 4rem;
-}
+@media (hover: hover) {
+  .card:hover {
+    scale: 1.02;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 4rem;
+  }
 
-.card:hover .cardImg {
-  scale: 1.4;
-}
+  .card:hover .cardImg {
+    scale: 1.4;
+  }
 
-.card:hover .cardName {
-  display: none;
+  .card:hover .cardName {
+    display: none;
+  }
 }
 
 /*=============== BREAKPOINTS ===============*/
